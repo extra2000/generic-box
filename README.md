@@ -19,7 +19,7 @@ $ cd generic-box
 
 Rename the following files:
 * `salt/etc/minion.example` to `salt/etc/minion`
-* `vagrant/Vagrantfile.generic-box.example` to `vagrant/Vagrantfile.generic-box`
+* `vagrant/Vagrantfile.generic-box.centos-7.x86_64.example` to `vagrant/Vagrantfile.generic-box`
 
 You may need to modify configs in `salt/etc/minion` and `vagrant/Vagrantfile.generic-box`.
 
