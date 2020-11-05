@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.1-alpha.1](https://github.com/extra2000/generic-box/compare/v1.0.0...v1.0.1-alpha.1) (2020-11-05)
+
+
+### Code Refactoring
+
+* Rename `generic-box.example` to `generic-box.centos-7.x86_64.example` ([d43cb89](https://github.com/extra2000/generic-box/commit/d43cb89110119ecdc283abd91273a5022ab17092))
+
 ## 1.0.0 (2020-10-10)
 
 
