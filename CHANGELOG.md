@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.1.0-alpha.1](https://github.com/extra2000/generic-box/compare/v1.0.1-alpha.1...v1.1.0-alpha.1) (2020-11-05)
+
+
+### Features
+
+* **vagrant:** Add Debian 10 `x86_64` box ([671d9c7](https://github.com/extra2000/generic-box/commit/671d9c77953ac19c2619d5b76a95814222b7cb97))
+* **vagrant:** Add Fedora 32 `x86_64` box ([8a25f22](https://github.com/extra2000/generic-box/commit/8a25f222b7c26e77893c144501fd1ac30b459fda))
+* **vagrant:** Add openSUSE Leap 15.2 `aarch64` box ([9558ca2](https://github.com/extra2000/generic-box/commit/9558ca2f7956ce4766814c81a389ce2e3bc76238))
+* **vagrant:** Add openSUSE Leap 15.2 `x86_64` box ([8e6a7d8](https://github.com/extra2000/generic-box/commit/8e6a7d8a258c8c71a2fd114d6d51ffa925fb11d7))
+* **vagrant:** Add openSUSE Tumbleweed `aarch64` box ([1110fb4](https://github.com/extra2000/generic-box/commit/1110fb41165513e9235a4531a1223de7c680ed92))
+* **vagrant:** Add openSUSE Tumbleweed `x86_64` box ([ff7069d](https://github.com/extra2000/generic-box/commit/ff7069dac019ede481d166f8ad219d8dbd15766a))
+* **vagrant:** Add Ubuntu 20.04 `x86_64` box ([d29c777](https://github.com/extra2000/generic-box/commit/d29c7774ab998c87d691135885abcbe414f39813))
+
+
+### Documentations
+
+* **README:** Change item into BASH commands ([2cb4be0](https://github.com/extra2000/generic-box/commit/2cb4be083c8ea7668e3fe5d567fa3f71b41e4028))
+
 ### [1.0.1-alpha.1](https://github.com/extra2000/generic-box/compare/v1.0.0...v1.0.1-alpha.1) (2020-11-05)
 
 
