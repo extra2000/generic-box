@@ -13,7 +13,7 @@ salt/roots/pillar/*
 !salt/roots/pillar/.gitkeep
 
 vagrant/*
-!vagrant/*.example
+!vagrant/examples
 
 salt/roots/formulas/*
 !salt/roots/formulas/.gitkeep
