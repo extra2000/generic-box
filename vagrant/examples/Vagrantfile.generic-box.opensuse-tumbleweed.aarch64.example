@@ -40,7 +40,9 @@ Vagrant.configure("2") do |config|
       v.driver = "qemu"
       v.autostart = false
 
+      override.vm.provision 'shell', run: 'once', inline: 'echo "send host-name \"generic-box\";" >> /etc/dhclient.conf', privileged: true
       salt_provision_generic_box override
+      override.vm.provision 'reload'
     end
 
     generic_box.vm.synced_folder "salt/roots/", "/srv/", type: "rsync"
