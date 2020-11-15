@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.1.0-alpha.2](https://github.com/extra2000/generic-box/compare/v1.1.0-alpha.1...v1.1.0-alpha.2) (2020-11-15)
+
+
+### Code Refactoring
+
+* Move Vagrant example files into `vagrant/examples/` directory ([d403fa4](https://github.com/extra2000/generic-box/commit/d403fa43f2ff759f8d7359a695e33e5d7dc04e87))
+
+
+### Fixes
+
+* **vagrant/examples/Vagrantfile.generic-box.debian-10.x86_64.example:** Fix box unable to communicate with other boxes ([b5e1e99](https://github.com/extra2000/generic-box/commit/b5e1e997ca68c1ec66d553cbecde54615b75bdd7))
+* **vagrant/examples/Vagrantfile.generic-box.opensuse*:** Fix box unable to communicate with other boxes ([61cb014](https://github.com/extra2000/generic-box/commit/61cb0140b2af7111d6bbd710421f4cf58ef7beeb))
+* **vagrant/examples/Vagrantfile.generic-box.ubuntu-2004.x86_64.example:** Fix box unable to communicate with other boxes ([2bfaad5](https://github.com/extra2000/generic-box/commit/2bfaad58954da906187a01f42f75264ee51e30e2))
+
 ## [1.1.0-alpha.1](https://github.com/extra2000/generic-box/compare/v1.0.1-alpha.1...v1.1.0-alpha.1) (2020-11-05)
 
 
