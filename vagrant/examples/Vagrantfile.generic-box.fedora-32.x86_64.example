@@ -15,7 +15,6 @@ def salt_provision_generic_box(context)
   end
 end
 
-
 Vagrant.configure("2") do |config|
 
   config.vagrant.plugins = ["vagrant-reload", "vagrant-scp"]
