@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0-beta.3](https://github.com/extra2000/generic-box/compare/v1.1.0-beta.2...v1.1.0-beta.3) (2020-11-25)
+
+
+### Continuous Integrations
+
+* **semantic-release:** Write version into `VERSION.txt` file ([be50997](https://github.com/extra2000/generic-box/commit/be50997649cbbe37d5654ec26d000890441e2fb3))
+
 ## [1.1.0-beta.2](https://github.com/extra2000/generic-box/compare/v1.1.0-beta.1...v1.1.0-beta.2) (2020-11-25)
 
 
