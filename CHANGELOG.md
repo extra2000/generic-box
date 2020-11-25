@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0-beta.2](https://github.com/extra2000/generic-box/compare/v1.1.0-beta.1...v1.1.0-beta.2) (2020-11-25)
+
+
+### Features
+
+* **vagrant:** Add Arch Linux `x86_64` ([516e1ea](https://github.com/extra2000/generic-box/commit/516e1ea016f18b0d62ba34e19181f1c7fe9f474e))
+
 ## [1.1.0-beta.1](https://github.com/extra2000/generic-box/compare/v1.0.0...v1.1.0-beta.1) (2020-11-16)
 
 
