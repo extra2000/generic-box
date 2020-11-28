@@ -1,5 +1,18 @@
 # Changelog
 
+### [1.1.1](https://github.com/extra2000/generic-box/compare/v1.1.0...v1.1.1) (2020-11-28)
+
+
+### Documentations
+
+* **README:** Remove Travis CI badge ([4c406e0](https://github.com/extra2000/generic-box/commit/4c406e0726d4f602ae6c7dbe78b11cceae9dde38))
+
+
+### Continuous Integrations
+
+* **AppVeyor:** Add `semantic-release` ([3dedee7](https://github.com/extra2000/generic-box/commit/3dedee79bc7c41f21a61de4e4f565c0513faea60))
+* Remove Travis CI because it is no longer free ([f5e0a3f](https://github.com/extra2000/generic-box/commit/f5e0a3fe76506f2f895dab3d50def4dc4dea1c46))
+
 ## [1.1.0](https://github.com/extra2000/generic-box/compare/v1.0.0...v1.1.0) (2020-11-25)
 
 
