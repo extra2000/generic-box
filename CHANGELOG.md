@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/extra2000/generic-box/compare/v1.1.1...v1.2.0) (2020-12-07)
+
+
+### Features
+
+* **Vagrantfile:** Allow creating multiple Vagrant files in `vagrant/` ([937dc08](https://github.com/extra2000/generic-box/commit/937dc0881b4575eb47f21b3f973190e5b4cf3061))
+
 ### [1.1.1](https://github.com/extra2000/generic-box/compare/v1.1.0...v1.1.1) (2020-11-28)
 
 
