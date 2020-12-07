@@ -5,5 +5,7 @@ Vagrant.configure("2") do |config|
   config.vagrant.plugins = ["vagrant-reload", "vagrant-scp"]
 end
 
-generic_box_vagrantfile = './vagrant/Vagrantfile.generic-box'
-load generic_box_vagrantfile if File.exists?(generic_box_vagrantfile)
+vagrantfiles = Dir["vagrant/Vagrantfile*"]
+vagrantfiles.each do |vagrantfile|
+  load File.expand_path(vagrantfile) if File.exists?(vagrantfile)
+end
