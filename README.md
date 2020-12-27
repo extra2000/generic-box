@@ -25,7 +25,7 @@ $ cp -v vagrant/examples/Vagrantfile.generic-box.centos-7.x86_64.example vagrant
 
 You may need to modify configs in `salt/etc/minion` and `vagrant/Vagrantfile.generic-box`.
 
-Then, create the Vagrant box:
+Then, create the Vagrant box. You can change to `--provider=virtualbox` if you are using [Oracle VM VirtualBox](https://www.virtualbox.org/):
 ```
 $ vagrant up --provider=libvirt
 ```
