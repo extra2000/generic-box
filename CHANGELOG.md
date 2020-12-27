@@ -1,5 +1,32 @@
 # Changelog
 
+## [1.3.0](https://github.com/extra2000/generic-box/compare/v1.2.0...v1.3.0) (2020-12-27)
+
+
+### Features
+
+* **vagrant:** Add CentOS 8 `x86_64` box ([2b39249](https://github.com/extra2000/generic-box/commit/2b39249db83a63ca8f35f07209e22360c952371b))
+* **vagrant:** Add CentOS Stream `x86_64` box ([aa897c5](https://github.com/extra2000/generic-box/commit/aa897c5edd9f20268a3059994dd07ad7ff80da0a))
+* **vagrant:** Add Fedora 33 `x86_64` box ([2e82d21](https://github.com/extra2000/generic-box/commit/2e82d210a65dfb9cbbe58bcfef86e0a60cf05cee))
+* **vagrant:** Add Ubuntu 18.04 `x86_64` box ([e18e6b5](https://github.com/extra2000/generic-box/commit/e18e6b5308385d052ade52a4d8b101a24aae0756))
+* **vagrant:** Enable VNC by default, for Libvirt provider ([215b15c](https://github.com/extra2000/generic-box/commit/215b15c7a9a76842816b6b5f538a77dd02993058))
+
+
+### Fixes
+
+* **vagrant:** Change Salt install type from `stable` to `git` with Salt version `3002.2` to ensure all Vagrant boxes are using the same Salt version ([02f51c5](https://github.com/extra2000/generic-box/commit/02f51c5ab05b4cc0f0d55f80be45d8fd7b3988dd))
+* **vagrant:** Explicitly force using Python3 via `-x python3` argument ([6124968](https://github.com/extra2000/generic-box/commit/6124968c22f0604df563ce9691a336c7f4a49520))
+
+
+### Continuous Integrations
+
+* **AppVeyor:** Change CentOS 7 to Fedora 33 ([af7b53e](https://github.com/extra2000/generic-box/commit/af7b53e0c805fe1edaba9c1014c0b13f9c6069cd))
+
+
+### Documentations
+
+* **README:** Add instruction to change to `--provider=virtualbox` if using [Oracle VM VirtualBox](https://www.virtualbox.org/) ([aee77fe](https://github.com/extra2000/generic-box/commit/aee77fefa92a68f1fe714b306baff22b2e098281))
+
 ## [1.2.0](https://github.com/extra2000/generic-box/compare/v1.1.1...v1.2.0) (2020-12-07)
 
 
