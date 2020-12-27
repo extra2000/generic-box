@@ -37,7 +37,7 @@ Vagrant.configure("2") do |config|
       v.nested = false
       v.cpu_mode = "host-model"
       v.cpu_fallback = "allow"
-      v.graphics_type = "none"
+      v.graphics_type = "vnc"
       v.kvm_hidden = "false"
       v.machine_type = "pc-i440fx-2.11"
       v.machine_arch = "x86_64"
