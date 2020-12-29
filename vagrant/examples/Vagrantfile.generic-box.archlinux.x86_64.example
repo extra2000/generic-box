@@ -55,6 +55,7 @@ Vagrant.configure("2") do |config|
       v.customize ["modifyvm", :id, '--natdnshostresolver1', 'on']
       v.customize ['modifyvm', :id, '--graphicscontroller', 'vmsvga']
       v.customize ['modifyvm', :id, '--audio', 'none']
+      v.customize ['modifyvm', :id, '--nested-hw-virt', 'off']
 
       override.vm.provision 'shell', run: 'once', inline: 'pacman --sync --noconfirm avahi nss-mdns && systemctl start avahi-daemon && systemctl enable avahi-daemon', privileged: true
       salt_provision_generic_box override

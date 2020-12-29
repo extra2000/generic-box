@@ -56,6 +56,7 @@ Vagrant.configure("2") do |config|
       v.customize ["modifyvm", :id, '--natdnshostresolver1', 'on']
       v.customize ['modifyvm', :id, '--graphicscontroller', 'vmsvga']
       v.customize ['modifyvm', :id, '--audio', 'none']
+      v.customize ['modifyvm', :id, '--nested-hw-virt', 'off']
 
       override.vm.provision 'shell', run: 'once', inline: 'rm -rf /etc/resolv.conf && echo nameserver 10.0.2.3 | tee /etc/resolv.conf', privileged: true
       override.vm.provision 'shell', run: 'once', inline: 'apt update && apt install -y avahi-utils libnss-mdns && systemctl start avahi-daemon && systemctl enable avahi-daemon', privileged: true
