@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.4.0](https://github.com/extra2000/generic-box/compare/v1.3.0...v1.4.0) (2021-01-07)
+
+
+### Features
+
+* **vagrant:** Add nested virtualization option for VirtualBox provider ([e683a94](https://github.com/extra2000/generic-box/commit/e683a94ea68f5943aa97fbb8b1c7a8e58d53e810))
+
+
+### Code Refactoring
+
+* **vagrant:** Remove `sudo` and replace with `privileged: true` ([3db7bd0](https://github.com/extra2000/generic-box/commit/3db7bd0c78e71a073d8f6f8e693f1b287ffe3490))
+
+
+### Fixes
+
+* **vagrant:** Fix missing `python3-pip` and `python3-setuptools` installation for OpenSUSE Leap 15.2 Virtualbox provider ([5dd8bfa](https://github.com/extra2000/generic-box/commit/5dd8bfa41bce8eb89152bae16991399ec23b832e))
+* **vagrant:** Fix missing Salt dependencies for OpenSUSE `aarch64` boxes ([b0107df](https://github.com/extra2000/generic-box/commit/b0107dfb299b07bd575b9a37ffaa95332df46f91))
+
 ## [1.3.0](https://github.com/extra2000/generic-box/compare/v1.2.0...v1.3.0) (2020-12-27)
 
 
