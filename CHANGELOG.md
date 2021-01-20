@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.4.1](https://github.com/extra2000/generic-box/compare/v1.4.0...v1.4.1) (2021-01-20)
+
+
+### Continuous Integrations
+
+* **AppVeyor:** Upgrade Ubuntu from `18.04` to `20.04` ([a3755c6](https://github.com/extra2000/generic-box/commit/a3755c6b188bc7de83dc12f726f59589918bcf3f))
+
 ## [1.4.0](https://github.com/extra2000/generic-box/compare/v1.3.0...v1.4.0) (2021-01-07)
 
 
