@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.4.2](https://github.com/extra2000/generic-box/compare/v1.4.1...v1.4.2) (2021-01-21)
+
+
+### Fixes
+
+* **vagrant:** Fix Salt Minion installation isses on openSUSE Leap and Tumbleweed ([aa545ae](https://github.com/extra2000/generic-box/commit/aa545ae0b7cb7d28a0331c719c3f40204a5f0464))
+
 ### [1.4.1](https://github.com/extra2000/generic-box/compare/v1.4.0...v1.4.1) (2021-01-20)
 
 
