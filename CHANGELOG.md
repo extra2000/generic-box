@@ -1,5 +1,27 @@
 # Changelog
 
+## [1.5.0](https://github.com/extra2000/generic-box/compare/v1.4.2...v1.5.0) (2021-02-11)
+
+
+### Features
+
+* **vagrant:** Add `storage_pool_name` option ([9e13a58](https://github.com/extra2000/generic-box/commit/9e13a584e4698581099e246d8f5e0cd7bddee5f2))
+
+
+### Code Refactoring
+
+* **gitignore:** Remove duplicated rules ([fb0ae2a](https://github.com/extra2000/generic-box/commit/fb0ae2ab41ecf5d51c9866f7042ce39e798e1757))
+
+
+### Documentations
+
+* **README:** Set Fedora 33 `x86_64` as default ([e9a2dcb](https://github.com/extra2000/generic-box/commit/e9a2dcb65fd3a36e0ee55dd08d592046fddb85d8))
+
+
+### Continuous Integrations
+
+* **AppVeyor:** Make `gitsubmodule` update with `--init` and `--recursive` ([63a4c05](https://github.com/extra2000/generic-box/commit/63a4c05d561d9a73ba487c8b10164acf69669439))
+
 ### [1.4.2](https://github.com/extra2000/generic-box/compare/v1.4.1...v1.4.2) (2021-01-21)
 
 
