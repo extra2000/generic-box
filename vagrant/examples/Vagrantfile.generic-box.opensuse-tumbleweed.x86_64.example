@@ -39,6 +39,7 @@ Vagrant.configure("2") do |config|
       v.machine_type = "pc-i440fx-2.11"
       v.machine_arch = "x86_64"
       v.autostart = false
+      v.storage_pool_name = "default"
 
       override.vm.provision 'shell', run: 'once', inline: 'echo "send host-name \"generic-box\";" >> /etc/dhclient.conf', privileged: true
       override.vm.provision 'shell', run: 'once', inline: 'zypper install -y -t pattern devel_basis', privileged: true
