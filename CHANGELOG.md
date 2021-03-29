@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.6.0](https://github.com/extra2000/generic-box/compare/v1.5.0...v1.6.0) (2021-03-29)
+
+
+### Features
+
+* **vagrant:** Upgrade SaltStack from `3002.2` to `3002.6` ([efd349f](https://github.com/extra2000/generic-box/commit/efd349f0de897587be54cb7a41388cbda69e0bad))
+
+
+### Fixes
+
+* **/etc/minion:** Using new style for `module.run` ([ad39cd5](https://github.com/extra2000/generic-box/commit/ad39cd544a009c621f6e51730d5941afc94de279))
+
+
+### Continuous Integrations
+
+* **AppVeyor:** Upgrade `nvm` from `v0.33.0` to `v0.37.2` ([7bb793b](https://github.com/extra2000/generic-box/commit/7bb793ba4b0fd973f3fbe37ceae8f0e57e0394ef))
+* **AppVeyor:** Upgrade Vagrant from version `2.2.9` to `2.2.14` ([87c6dc9](https://github.com/extra2000/generic-box/commit/87c6dc98330665749f99266b8b2904cce23d80c0))
+
 ## [1.5.0](https://github.com/extra2000/generic-box/compare/v1.4.2...v1.5.0) (2021-02-11)
 
 
