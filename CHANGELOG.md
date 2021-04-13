@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/extra2000/generic-box/compare/v1.6.0...v1.7.0) (2021-04-13)
+
+
+### Features
+
+* **vagrant:** Upgrade SaltStack from version `3002.6` to version `3003` ([444ac25](https://github.com/extra2000/generic-box/commit/444ac25adec57a0f8f7af9b5a676bd93ba37d126))
+
 ## [1.6.0](https://github.com/extra2000/generic-box/compare/v1.5.0...v1.6.0) (2021-03-29)
 
 
