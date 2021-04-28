@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.8.0](https://github.com/extra2000/generic-box/compare/v1.7.0...v1.8.0) (2021-04-28)
+
+
+### Features
+
+* **vagrant:** Add Fedora 34 `x86_64` Vagrant file ([5126881](https://github.com/extra2000/generic-box/commit/512688159114e1f94607a62f950e35c9fc64916a))
+
+
+### Documentations
+
+* **README:** Set Fedora 34 as default Vagrant instruction ([f662640](https://github.com/extra2000/generic-box/commit/f66264097353bf3c9657ec49a653ff27144bfde5))
+
 ## [1.7.0](https://github.com/extra2000/generic-box/compare/v1.6.0...v1.7.0) (2021-04-13)
 
 
