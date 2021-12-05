@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.9.0](https://github.com/extra2000/generic-box/compare/v1.8.0...v1.9.0) (2021-12-05)
+
+
+### Features
+
+* **saltstack:** upgrade from `v3003` to `v3004` ([c479859](https://github.com/extra2000/generic-box/commit/c4798597f3ac8ab67113b0dcd258d4648aff07ac))
+* **vagrant:** add AlmaLinux 8.5 box ([59c264a](https://github.com/extra2000/generic-box/commit/59c264aa25006e26e8732997a91c4cda4577f674))
+
+
+### Documentations
+
+* **README:** change default box from `Fedora 34` to `AlmaLinux 8.5` ([353c232](https://github.com/extra2000/generic-box/commit/353c232c2360b828247bbfecb850301d47fb58c0))
+
+
+### Styles
+
+* **README:** remove `$` sign to simplify copy-paste commands ([2b5d77c](https://github.com/extra2000/generic-box/commit/2b5d77c6c124a70aa6c9c0308bd747b110b317ab))
+
+
+### Continuous Integrations
+
+* **AppVeyor:** change `Fedora 33` to `AlmaLinux 8.5` ([cf97f41](https://github.com/extra2000/generic-box/commit/cf97f4153af26c2c501837d8086afb7fdfa9b8b0))
+
 ## [1.8.0](https://github.com/extra2000/generic-box/compare/v1.7.0...v1.8.0) (2021-04-28)
 
 
