@@ -10,8 +10,8 @@ User customizable developer box for general-purpose.
 ## Getting started
 
 ```
-$ git clone https://github.com/extra2000/generic-box.git
-$ cd generic-box
+git clone https://github.com/extra2000/generic-box.git
+cd generic-box
 ```
 
 
@@ -19,13 +19,13 @@ $ cd generic-box
 
 Rename the following files:
 ```
-$ cp -v salt/etc/minion.example salt/etc/minion
-$ cp -v vagrant/examples/Vagrantfile.generic-box.almalinux-8-5.x86_64.example vagrant/Vagrantfile.generic-box
+cp -v salt/etc/minion.example salt/etc/minion
+cp -v vagrant/examples/Vagrantfile.generic-box.almalinux-8-5.x86_64.example vagrant/Vagrantfile.generic-box
 ```
 
 You may need to modify configs in `salt/etc/minion` and `vagrant/Vagrantfile.generic-box`.
 
 Then, create the Vagrant box. You can change to `--provider=virtualbox` if you are using [Oracle VM VirtualBox](https://www.virtualbox.org/):
 ```
-$ vagrant up --provider=libvirt
+vagrant up --provider=libvirt
 ```
