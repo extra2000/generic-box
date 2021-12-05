@@ -20,7 +20,7 @@ $ cd generic-box
 Rename the following files:
 ```
 $ cp -v salt/etc/minion.example salt/etc/minion
-$ cp -v vagrant/examples/Vagrantfile.generic-box.fedora-34.x86_64.example vagrant/Vagrantfile.generic-box
+$ cp -v vagrant/examples/Vagrantfile.generic-box.almalinux-8-5.x86_64.example vagrant/Vagrantfile.generic-box
 ```
 
 You may need to modify configs in `salt/etc/minion` and `vagrant/Vagrantfile.generic-box`.
