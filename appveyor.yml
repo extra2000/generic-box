@@ -9,7 +9,7 @@ install:
   - git submodule update --init --recursive
 build_script:
   - cp -v salt/etc/minion{.example,}
-  - cp -v vagrant/examples/Vagrantfile.generic-box.fedora-33.x86_64.example vagrant/Vagrantfile.generic-box
+  - cp -v vagrant/examples/Vagrantfile.generic-box.almalinux-8-5.x86_64.example vagrant/Vagrantfile.generic-box
   - sudo vagrant up --provider=libvirt generic-box
   - sudo vagrant destroy --force generic-box
 on_success:
