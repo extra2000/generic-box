@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.10.0](https://github.com/extra2000/generic-box/compare/v1.9.0...v1.10.0) (2022-07-07)
+
+
+### Features
+
+* **vagrantfiles:** update SaltStack from `3004` to `3004.2` ([64e8690](https://github.com/extra2000/generic-box/commit/64e8690e99895e3bef7a7174de0ce44f352eb5cd))
+
+
+### Fixes
+
+* **opensuse/aarch64/qemu:** add UEFI image provided by `edk2-aarch64` package ([5459417](https://github.com/extra2000/generic-box/commit/54594175216bbeabb30c518a3a9ec19d65e12961))
+* **tumbleweed/aarch64/qemu:** remove deprecated `sysvinit-tools` and `insserv-compat` packages ([c69cafc](https://github.com/extra2000/generic-box/commit/c69cafcdbe274eaf2bb47ffa32540d07a4081142))
+
+
+### Continuous Integrations
+
+* **AppVeyor:** change Vagrant installation method ([5c2ffee](https://github.com/extra2000/generic-box/commit/5c2ffee6af5149a068e7d5454856459e04706f29))
+* **AppVeyor:** remove unused `git submodule` command ([12715ae](https://github.com/extra2000/generic-box/commit/12715ae1c5a8ee5f885fa4c03b47ab384456e391))
+
 ## [1.9.0](https://github.com/extra2000/generic-box/compare/v1.8.0...v1.9.0) (2021-12-05)
 
 
