@@ -6,7 +6,6 @@ install:
   - echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
   - sudo apt update && sudo apt install --allow-unauthenticated -y vagrant qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils ruby-dev libvirt-dev
   - sudo vagrant plugin install vagrant-libvirt vagrant-scp vagrant-reload vagrant-vbguest
-  - git submodule update --init --recursive
 build_script:
   - cp -v salt/etc/minion{.example,}
   - cp -v vagrant/examples/Vagrantfile.generic-box.almalinux-8-5.x86_64.example vagrant/Vagrantfile.generic-box
