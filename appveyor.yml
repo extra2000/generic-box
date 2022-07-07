@@ -2,9 +2,9 @@ os: Ubuntu2004
 platform:
   - x64
 install:
-  - sudo apt update && sudo apt install --allow-unauthenticated -y qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils ruby-dev libvirt-dev
-  - sudo wget -nv https://releases.hashicorp.com/vagrant/2.2.14/vagrant_2.2.14_x86_64.deb
-  - sudo dpkg -i vagrant_2.2.14_x86_64.deb
+  - wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
+  - echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+  - sudo apt update && sudo apt install --allow-unauthenticated -y vagrant qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils ruby-dev libvirt-dev
   - sudo vagrant plugin install vagrant-libvirt vagrant-scp vagrant-reload vagrant-vbguest
   - git submodule update --init --recursive
 build_script:
